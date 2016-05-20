@@ -2,15 +2,11 @@
 
 
 使用方法:
-
+    需要转换的Model，可以是任意model
     Model *m = [[Model alloc]init];  
-
     m.name = nil;  
-
     m.page = @"只有18岁的逍遥";  
-
     m.phone = nil;  
-
 方式1:
 
      
