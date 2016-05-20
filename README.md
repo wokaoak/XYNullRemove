@@ -2,11 +2,13 @@
 
 
 使用方法:
-    需要转换的Model，可以是任意model
+
+    需要转换的Model，可以是任意model，目前不支持model嵌套model
     Model *m = [[Model alloc]init];  
     m.name = nil;  
     m.page = @"只有18岁的逍遥";  
     m.phone = nil;  
+    
 方式1:
 
      
