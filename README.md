@@ -9,6 +9,10 @@
     m.page = @"只有18岁的逍遥";  
     m.phone = nil;  
     
+导入：
+    
+    #import "NSObject+XYNullRemove.h"
+    
 方式1:
 
      
