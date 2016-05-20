@@ -1,11 +1,19 @@
 # XYNullRemove
+
+
 使用方法:
-方式一：
-例1:
-    Model *m = [[Model alloc]init];
-    m.name = nil;
-    m.page = @"只有18岁的逍遥";
-    m.phone = nil;
+
+    Model *m = [[Model alloc]init];  
+
+    m.name = nil;  
+
+    m.page = @"只有18岁的逍遥";  
+
+    m.phone = nil;  
+
+方式1:
+
+     
     
     NSLog(@"转换前\n%@", m);
     
@@ -13,14 +21,10 @@
     
     NSLog(@"转换后\n%@", m);
 
-例2:
-    Model *m = [[Model alloc]init];
-    m.name = nil;
-    m.page = @"只有18岁的逍遥";
-    m.phone = nil;
+方式2:  
+
+    NSLog(@"转换前\n%@", m);  
     
-    NSLog(@"转换前\n%@", m);
-    
-    m = m.xy_replaseNull;
+    m = m.xy_replaseNull;  
     
     NSLog(@"转换后\n%@", m);
