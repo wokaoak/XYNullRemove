@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		135298671CEE9F7E005377DC /* NSObject+XYNullRemove.m in Sources */ = {isa = PBXBuildFile; fileRef = 135298661CEE9F7E005377DC /* NSObject+XYNullRemove.m */; };
+		1352986D1CEE9FD3005377DC /* Model.m in Sources */ = {isa = PBXBuildFile; fileRef = 1352986C1CEE9FD3005377DC /* Model.m */; };
 		13EF7B081CEE9D1D00C3D25F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13EF7B071CEE9D1D00C3D25F /* main.m */; };
 		13EF7B0B1CEE9D1D00C3D25F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13EF7B0A1CEE9D1D00C3D25F /* AppDelegate.m */; };
 		13EF7B0E1CEE9D1D00C3D25F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 13EF7B0D1CEE9D1D00C3D25F /* ViewController.m */; };
@@ -16,6 +18,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		135298651CEE9F7E005377DC /* NSObject+XYNullRemove.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+XYNullRemove.h"; sourceTree = "<group>"; };
+		135298661CEE9F7E005377DC /* NSObject+XYNullRemove.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+XYNullRemove.m"; sourceTree = "<group>"; };
+		1352986B1CEE9FD3005377DC /* Model.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Model.h; sourceTree = "<group>"; };
+		1352986C1CEE9FD3005377DC /* Model.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Model.m; sourceTree = "<group>"; };
 		13EF7B031CEE9D1D00C3D25F /* XYNullRemoveDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XYNullRemoveDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13EF7B071CEE9D1D00C3D25F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		13EF7B091CEE9D1D00C3D25F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -39,9 +45,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		135298611CEE9EC5005377DC /* XYNullRemove */ = {
+			isa = PBXGroup;
+			children = (
+				135298651CEE9F7E005377DC /* NSObject+XYNullRemove.h */,
+				135298661CEE9F7E005377DC /* NSObject+XYNullRemove.m */,
+			);
+			path = XYNullRemove;
+			sourceTree = "<group>";
+		};
 		13EF7AFA1CEE9D1D00C3D25F = {
 			isa = PBXGroup;
 			children = (
+				135298611CEE9EC5005377DC /* XYNullRemove */,
 				13EF7B051CEE9D1D00C3D25F /* XYNullRemoveDemo */,
 				13EF7B041CEE9D1D00C3D25F /* Products */,
 			);
@@ -58,6 +74,8 @@
 		13EF7B051CEE9D1D00C3D25F /* XYNullRemoveDemo */ = {
 			isa = PBXGroup;
 			children = (
+				1352986B1CEE9FD3005377DC /* Model.h */,
+				1352986C1CEE9FD3005377DC /* Model.m */,
 				13EF7B091CEE9D1D00C3D25F /* AppDelegate.h */,
 				13EF7B0A1CEE9D1D00C3D25F /* AppDelegate.m */,
 				13EF7B0C1CEE9D1D00C3D25F /* ViewController.h */,
@@ -152,6 +170,8 @@
 				13EF7B0E1CEE9D1D00C3D25F /* ViewController.m in Sources */,
 				13EF7B0B1CEE9D1D00C3D25F /* AppDelegate.m in Sources */,
 				13EF7B081CEE9D1D00C3D25F /* main.m in Sources */,
+				135298671CEE9F7E005377DC /* NSObject+XYNullRemove.m in Sources */,
+				1352986D1CEE9FD3005377DC /* Model.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -302,6 +322,7 @@
 				13EF7B1C1CEE9D1D00C3D25F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
